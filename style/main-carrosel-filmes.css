@@ -1,0 +1,21 @@
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+.carrosel-filmes .item {
+    transition: 0.3s ease all;
+}
+.carrosel-filmes .item:hover {
+    transform: scale(1.2);
+}
+
+.title {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
